@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Modern Classic",
+    "square": "186",
+    "rooms": "5",
+    "bedRooms": "3",
+    "floor": "2"
+  },
+  {
+    "name": "Lake shore house",
+    "square": "242",
+    "rooms": "7",
+    "bedRooms": "4",
+    "floor": "2"
+  },
+  {
+    "name": "Forest mansion",
+    "square": "406",
+    "rooms": "12",
+    "bedRooms": "8",
+    "floor": "2"
+  },
+  {
+    "name": "A treehouse",
+    "square": "75",
+    "rooms": "3",
+    "bedRooms": "2",
+    "floor": "1"
+  },
+  {
+    "name": "House by the pond",
+    "square": "81",
+    "rooms": "3",
+    "bedRooms": "2",
+    "floor": "1"
+  }
+]

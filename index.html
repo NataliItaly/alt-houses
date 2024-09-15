@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alt Home</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__grid">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#place" class="header__link">Place</a>
+            </li>
+            <li class="header__item">
+              <a href="#catalog" class="header__link">Catalog</a>
+            </li>
+            <li class="header__item">
+              <a href="#subscribe" class="header__link">Submit Application</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">
+            <img src="./images/icons/header-logo.svg" alt="Alt Home logo" />
+          </a>
+        </div>
+        <form action="" class="header__form">
+          <input type="text" class="header__input" placeholder="search" />
+          <button class="btn header__form-btn" aria-label="search">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11 6.5C11 8.98528 8.98528 11 6.5 11C4.01472 11 2 8.98528 2 6.5C2 4.01472 4.01472 2 6.5 2C8.98528 2 11 4.01472 11 6.5ZM10.3347 11.7489C9.25974 12.5356 7.93411 13 6.5 13C2.91015 13 0 10.0899 0 6.5C0 2.91015 2.91015 0 6.5 0C10.0899 0 13 2.91015 13 6.5C13 7.9341 12.5356 9.25973 11.7489 10.3347L16.0006 14.5854L14.5865 15.9998L10.3347 11.7489Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </form>
+        <div class="header__login">
+          <button class="btn header__log-btn">Log in</button>
+          <span class="header__login-span">or</span>
+          <button class="btn header__log-btn header__sign-btn">Log in</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section hero">
+        <div class="container hero__grid">
+          <div class="hero__text">
+            <p class="hero__uppertitle">Toronto</p>
+            <h2 class="hero__title">Country houses for rent</h2>
+            <p class="hero__subtitle">
+              Take a break from the hustle and bustle of the metropolis in a
+              cozy warm house surrounded by ecologically clean forests, rivers
+              and lakes
+            </p>
+            <a href="#" class="btn btn__primary hero__btn">Rent a house</a>
+            <div class="hero__social social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a
+                    href="https://www.facebook.com/"
+                    class="social__link"
+                    target="_blank"
+                  >
+                    <svg
+                      width="44"
+                      height="45"
+                      viewBox="0 0 44 45"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M44 22.457C44 10.2965 34.1503 0.438477 22 0.438477C9.84973 0.438477 0 10.2965 0 22.457C0 33.4468 8.04504 42.5561 18.5625 44.2079V28.8217H12.9766V22.457H18.5625V17.606C18.5625 12.0876 21.847 9.03945 26.8722 9.03945C29.2785 9.03945 31.7969 9.46949 31.7969 9.46949V14.8881H29.0228C26.29 14.8881 25.4375 16.5855 25.4375 18.3285V22.457H31.5391L30.5637 28.8217H25.4375V44.2079C35.955 42.5561 44 33.4468 44 22.457Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        d="M30.5637 28.8216L31.5391 22.4569H25.4375V18.3285C25.4375 16.5872 26.29 14.8881 29.0228 14.8881H31.7969V9.46948C31.7969 9.46948 29.2793 9.03943 26.8722 9.03943C21.847 9.03943 18.5625 12.0876 18.5625 17.606V22.4569H12.9766V28.8216H18.5625V44.2079C20.8403 44.5646 23.1597 44.5646 25.4375 44.2079V28.8216H30.5637Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a
+                    href="https://www.instagram.com/"
+                    class="social__link"
+                    target="_blank"
+                  >
+                    <svg
+                      width="44"
+                      height="44"
+                      viewBox="0 0 44 44"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        width="44"
+                        height="44"
+                        rx="22"
+                        fill="currentColor"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M21.9993 11.272C25.6399 11.272 26.0707 11.2861 27.5087 11.3517C28.8378 11.4123 29.5598 11.6344 30.0404 11.8212C30.6333 12.0397 31.1696 12.3886 31.6098 12.8422C32.0631 13.2827 32.4117 13.8195 32.63 14.4128C32.8167 14.8938 33.0386 15.6163 33.0992 16.9465C33.1647 18.3855 33.1788 18.8166 33.1788 22.46C33.1788 26.1034 33.1647 26.5345 33.0992 27.9736C33.0386 29.3038 32.8167 30.0263 32.63 30.5072C32.4029 31.0955 32.0554 31.6298 31.6098 32.0757C31.1642 32.5217 30.6304 32.8694 30.0425 33.0967C29.562 33.2835 28.84 33.5056 27.5108 33.5662C26.0734 33.6318 25.6421 33.6459 22.0014 33.6459C18.3608 33.6459 17.9295 33.6318 16.4921 33.5662C15.1629 33.5056 14.4409 33.2835 13.9604 33.0967C13.3675 32.8782 12.8311 32.5293 12.3909 32.0757C11.9377 31.6352 11.5891 31.0984 11.3707 30.5051C11.184 30.0241 10.9621 29.3016 10.9015 27.9714C10.836 26.5324 10.822 26.1013 10.822 22.4579C10.822 18.8145 10.836 18.3834 10.9015 16.9443C10.9621 15.6141 11.184 14.8916 11.3707 14.4107C11.5891 13.8173 11.9377 13.2806 12.3909 12.84C12.8311 12.3864 13.3675 12.0375 13.9604 11.8191C14.4409 11.6322 15.1629 11.4102 16.4921 11.3495C17.93 11.284 18.3608 11.2699 22.0014 11.2699L21.9993 11.272ZM22.0014 8.81152C18.2986 8.81152 17.8342 8.82723 16.38 8.89385C14.9259 8.96047 13.9355 9.19282 13.0696 9.5297C12.1596 9.8725 11.3352 10.4096 10.6537 11.1036C9.96017 11.7856 9.42349 12.6107 9.08094 13.5213C8.74432 14.3879 8.51377 15.3812 8.44774 16.8333C8.38171 18.2853 8.36548 18.7522 8.36548 22.4579C8.36548 26.1635 8.38117 26.6282 8.44774 28.0835C8.51431 29.5388 8.74432 30.5278 9.08094 31.3944C9.42363 32.3047 9.9603 33.1293 10.6537 33.811C11.3349 34.5055 12.1594 35.0428 13.0696 35.3855C13.9355 35.7229 14.928 35.9536 16.379 36.0197C17.8299 36.0858 18.2975 36.1021 22.0004 36.1021C25.7032 36.1021 26.1676 36.0863 27.6218 36.0197C29.076 35.9531 30.0631 35.7229 30.929 35.3855C31.835 35.0352 32.6578 34.4992 33.3446 33.8118C34.0314 33.1245 34.567 32.3011 34.9171 31.3944C35.2542 30.5278 35.4848 29.5345 35.5508 28.0825C35.6168 26.6304 35.6331 26.1625 35.6331 22.4568C35.6331 18.7511 35.6174 18.2864 35.5508 16.8311C35.4843 15.3758 35.2542 14.3879 34.9171 13.5213C34.5748 12.611 34.0383 11.7863 33.3449 11.1047C32.6635 10.4103 31.8391 9.87282 30.929 9.5297C30.0631 9.19282 29.0705 8.96209 27.6196 8.89601C26.1687 8.82994 25.7021 8.81369 21.9993 8.81369L22.0014 8.81152ZM22.0013 15.451C20.6166 15.451 19.2631 15.862 18.1118 16.6318C16.9605 17.4017 16.0632 18.4959 15.5333 19.7761C15.0034 21.0563 14.8648 22.465 15.1349 23.8241C15.405 25.1832 16.0718 26.4316 17.0509 27.4114C18.03 28.3913 19.2774 29.0585 20.6355 29.3289C21.9935 29.5992 23.4012 29.4605 24.6804 28.9302C25.9597 28.3999 27.0531 27.5019 27.8223 26.3497C28.5916 25.1976 29.0022 23.843 29.0022 22.4573C29.0023 21.5372 28.8212 20.6261 28.4694 19.776C28.1176 18.926 27.6019 18.1536 26.9518 17.503C26.3017 16.8524 25.5299 16.3363 24.6805 15.9842C23.8311 15.6322 22.9207 15.451 22.0013 15.451ZM22.0013 27.0068C21.1022 27.0068 20.2232 26.7399 19.4756 26.24C18.728 25.7401 18.1454 25.0296 17.8013 24.1983C17.4572 23.367 17.3672 22.4522 17.5426 21.5697C17.718 20.6872 18.151 19.8766 18.7867 19.2403C19.4225 18.604 20.2325 18.1707 21.1144 17.9952C21.9962 17.8197 22.9103 17.9097 23.741 18.2541C24.5717 18.5984 25.2817 19.1815 25.7812 19.9297C26.2807 20.6779 26.5473 21.5575 26.5473 22.4573C26.5473 23.6639 26.0684 24.8211 25.2158 25.6743C24.3633 26.5274 23.207 27.0068 22.0013 27.0068ZM30.9146 15.1748C30.9146 16.0791 30.1822 16.8123 29.2786 16.8123C28.3751 16.8123 27.6426 16.0791 27.6426 15.1748C27.6426 14.2705 28.3751 13.5374 29.2786 13.5374C30.1822 13.5374 30.9146 14.2705 30.9146 15.1748Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="https://x.com/" class="social__link" target="_blank">
+                    <svg
+                      width="44"
+                      height="44"
+                      viewBox="0 0 44 44"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        width="44"
+                        height="44"
+                        rx="22"
+                        fill="currentColor"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M35.9126 15.572C36.1296 14.8897 35.9127 14.3936 34.9521 14.3936H31.7605C30.9549 14.3936 30.5831 14.8277 30.3662 15.2929C30.3662 15.2929 28.7239 19.2624 26.431 21.8364C25.6873 22.5807 25.3465 22.8288 24.9436 22.8288C24.7267 22.8288 24.4479 22.5807 24.4479 21.8985V15.541C24.4479 14.7347 24.2 14.3625 23.5183 14.3625H18.4986C18.0028 14.3625 17.6929 14.7347 17.6929 15.1068C17.6929 15.8821 18.8394 16.0682 18.9633 18.239V22.9529C18.9633 23.9762 18.7774 24.1623 18.3746 24.1623C17.2901 24.1623 14.6563 20.1618 13.076 15.603C12.7662 14.7037 12.4563 14.3625 11.6507 14.3625H8.42814C7.49856 14.3625 7.34363 14.7967 7.34363 15.2619C7.34363 16.0992 8.42814 20.3168 12.3943 25.899C15.0281 29.7135 18.7774 31.7602 22.1549 31.7602C24.2 31.7602 24.4479 31.2951 24.4479 30.5198V27.6357C24.4479 26.7053 24.6338 26.5502 25.2845 26.5502C25.7493 26.5502 26.5859 26.7983 28.476 28.628C30.645 30.7989 31.0169 31.7913 32.2253 31.7913H35.4169C36.3465 31.7913 36.7803 31.3261 36.5324 30.4267C36.2535 29.5274 35.2 28.2249 33.8366 26.6743C33.0929 25.806 31.9774 24.8446 31.6366 24.3794C31.1718 23.7592 31.2957 23.5111 31.6366 22.9529C31.6056 22.9529 35.5098 17.4327 35.9126 15.572Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="hero__slider slider">
+            <ul class="slider__list">
+              <li class="slider__item">
+                <img
+                  src="./images/images/slider-images/1.jpg"
+                  alt=""
+                  class="slider__img"
+                />
+              </li>
+            </ul>
+            <div class="slider__control">
+              <button
+                class="btn slider__btn slider__btn_disabled"
+                aria-label="back"
+              >
+                &#8592;
+              </button>
+              <span class="slider__span"></span>
+              <button class="btn slider__btn" aria-label="forward">
+                &#8594;
+              </button>
+            </div>
+            <div class="slider__count">
+              <span class="slider__current">1</span>/<span class="slider__total"
+                >8</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section place" id="place">
+        <div class="container">
+          <article class="place__grid">
+            <div class="section__count place__section-count">
+              01<span class="section__count-span"></span>Place
+            </div>
+            <h2 class="section__title place__title">
+              Recreation park on the shore of Lake Ontario
+            </h2>
+            <div class="place__count"><span>01</span><span>place</span></div>
+            <div class="place__text">
+              Relax in the cozy wooden houses with a fireplace, sauna and
+              Jacuzzi located on the lake shore. For those who like complete
+              privacy, there are houses in the depths of the park, surrounded by
+              ancient trees.
+            </div>
+            <img
+              src="./images/images/place-images/1.jpg"
+              alt="wooden house covered with snow"
+              class="place__img_small"
+            />
+            <div class="place__text">
+              The park has a basketball court, a private beach with a volleyball
+              net, mountain bike and boat rentals. And in winter, you can rent
+              skis or snowmobiles and ride along specially equipped trails. We
+              create an individual entertainment program for each visitor and
+              help to implement it.
+            </div>
+            <img
+              src="./images/images/place-images/2.jpg"
+              alt="children playing volley"
+              class="place__img_big"
+            />
+            <div class="place__text">
+              There is a playground near each cottage with swings and slides,
+              and there is a children's room on the territory of the park. You
+              will be able to afford any rest knowing that your child is under
+              the supervision of experienced specialists.
+            </div>
+            <blockquote class="place__text_big">
+              We offer not only cozy homes, a wide range of entertainment and
+              activities for you and your family, but also large-scale holidays,
+              sports tournaments and the opportunity to meet new friends.
+            </blockquote>
+            <div class="place__text">
+              Despite the remoteness from populated areas, you will not feel
+              disconnected from civilization. All our homes are equipped with
+              high-speed Wi-Fi hotspots and home theaters with a Netflix
+              subscription.
+            </div>
+            <div class="place__text">
+              Come to us for a month, all summer or winter — there are good
+              discounts for long-term rentals! Book a house right now, it's
+              enough to order a call, and you can cancel your reservation at any
+              time for free.
+            </div>
+            <a href="#" class="btn btn__primary place__btn">Book for free</a>
+            <div class="place__aside place__aside_first">
+              Вы можете подписаться на рассылку и узнавать обо всех акциях,
+              скидках, и выгодных предложениях.
+            </div>
+            <div class="place__aside">
+              За счёт особой конструкции в наших домах очень тепло зимой и
+              прохладно летом. Мы открыты для вас в любое время года!
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section catalog">
+        <div class="container">
+          <div class="section__count catalog__section-count">
+            02<span class="section__count-span"></span>Catalog
+          </div>
+          <h2 class="section__title catalog__title">Houses for rent</h2>
+          <ul class="catalog__list"></ul>
+        </div>
+      </section>
+
+      <section class="section application">
+        <div class="container application__grid">
+          <div class="section__count application__section-count">
+            03<span class="section__count-span"></span>Submit Application
+          </div>
+          <h2 class="section__title application__title">We will contact you</h2>
+          <form action="#" class="application__form form">
+            <p class="form__item form__item_select">
+              <label for="appeal" class="form__label">Appeal</label>
+              <select
+                name="appeal"
+                id="appeal"
+                class="form__input form__appeal"
+              >
+                <option value=""></option>
+                <option value="mr">mr</option>
+                <option value="ms">ms</option>
+              </select>
+            </p>
+            <p class="form__item form__item_name">
+              <label for="#name" class="form__label">Name</label>
+              <input
+                type="text"
+                class="form__input"
+                name="name"
+                id="name"
+                placeholder="John"
+              />
+            </p>
+            <p class="form__item form__item_surname">
+              <label for="#surname" class="form__label">Surname</label>
+              <input
+                type="text"
+                class="form__input"
+                name="surname"
+                id="surname"
+                placeholder="Smith"
+              />
+            </p>
+            <p class="form__item_large">
+              <label for="#email" class="form__label">Email</label>
+              <input
+                type="email"
+                class="form__input"
+                name="email"
+                id="email"
+                placeholder="johnsmith@email.com"
+              />
+            </p>
+            <p class="form__item_large">
+              <label for="#tel" class="form__label">Phone</label>
+              <input
+                type="tel"
+                class="form__input"
+                name="tel"
+                id="tel"
+                placeholder="+123 45 678"
+              />
+            </p>
+            <p class="form__checkbox-wrapper form__checkbox-wrapper_1">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="consent"
+                class="visually-hidden form__checkbox"
+              />
+              <label for="consent" class="form__label form__label_checkbox"
+                >Consent to the processing of personal data</label
+              >
+            </p>
+            <p class="form__checkbox-wrapper form__checkbox-wrapper_2">
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="subscribe"
+                class="visually-hidden form__checkbox"
+              />
+              <label for="subscribe" class="form__label form__label_checkbox"
+                >Subscribe to the newsletter</label
+              >
+            </p>
+            <button class="btn btn__primary form__btn">Send</button>
+          </form>
+          <img
+            src="./images/images/application/1.jpg"
+            alt="a boat on lake"
+            class="application__img"
+          />
+        </div>
+      </section>
+    </main>
+
+    <foote class="footer">
+      <div class="container footer__grid">
+        <div class="footer__logo">
+          <img src="./images/icons/footer-logo.svg" alt="Alt House logo" />
+        </div>
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#place" class="footer__link">Place</a>
+            </li>
+            <li class="footer__item">
+              <a href="catalog" class="footer__link">Catalog</a>
+            </li>
+            <li class="footer__item">
+              <a href="application" class="footer__link">Application</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__author">
+          <span class="footer__copyright">&#169; Made by </span>
+          <a
+            href="https://github.com/NataliItaly"
+            class="footer__author-link"
+            target="_blank"
+            >Krylova Nataliya</a
+          >
+        </div>
+      </div>
+    </foote>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
